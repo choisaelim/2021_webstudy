@@ -7,12 +7,17 @@ import com.example.demo.domain.Member;
 import com.example.demo.repository.MemberRepository;
 import com.example.demo.repository.MemoryMemberRepository;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+// @Service
 public class MemberService {
     // private final MemberRepository memberRepository = new
     // MemoryMemberRepository();
     private final MemberRepository memberRepository;
 
     // repository 코드가 회원 서비스 코드를 DI 가능하게 변경
+    // @Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
