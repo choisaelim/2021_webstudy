@@ -1,0 +1,29 @@
+html,
+body {
+    width: 100% !important;
+    height: 100% !important;
+}
+.slider,
+.bx-wrapper,
+.bx-viewport {
+    width: 100% !important;
+    height: 100% !important;
+}
+.background__01 {
+    width: 100% !important;
+    height: 100% !important;
+    background: url("../images/a.jpg") no-repeat;
+    background-size: cover;
+}
+.background__02 {
+    width: 100% !important;
+    height: 100% !important;
+    background: url("../images/b.jpg") no-repeat;
+    background-size: cover;
+}
+.background__03 {
+    width: 100% !important;
+    height: 100% !important;
+    background: url("../images/c.jpg") no-repeat;
+    background-size: cover;
+}
